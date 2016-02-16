@@ -40,6 +40,11 @@
   </prerequisites>
 
   <distributionManagement>
+    <repository>
+      <id>maatg-fr-releases</id>
+      <name>maatG France Releases</name>
+      <url>http://nexus.gnubila.fr/content/repositories/maatg-fr-releases</url>
+    </repository>
     <!-- Cannot define in parent ATM, see COMMONSSITE-26 -->
     <site>
       <id>apache.website</id>
